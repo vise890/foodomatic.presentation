@@ -87,3 +87,7 @@ damn.
   .remove-from-favorites-controls
     display: inline
 ```
+
+!SLIDE
+
+# Demo
