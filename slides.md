@@ -38,7 +38,7 @@ hello.
 - load right partials according to the recipe status
 
 !SLIDE code
-### `RecipeRenderer#button_partials`
+### `Renderer#button_partials`
 ```ruby
 def button_partials
   button_partials = []

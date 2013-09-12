@@ -108,7 +108,7 @@
     <section class='slide'>
       <div class='spacer top'></div>
       <div class='content'>
-        <h3><code>RecipeRenderer#button_partials</code></h3>
+        <h3><code>Renderer#button_partials</code></h3>
         
         <p><textarea class='code' display='none' mode='ruby'>def button_partials&#x000A;  button_partials = []&#x000A;  if @user.in_basket?(@recipe)&#x000A;    button_partials.push 'recipes/manage_in_basket_button'&#x000A;  else&#x000A;    button_partials.push 'recipes/add_to_basket_button'&#x000A;  end&#x000A;&#x000A;  if @user.in_favorites?(@recipe)&#x000A;    button_partials.push 'recipes/remove_from_favorites_button'&#x000A;  else&#x000A;    button_partials.push 'recipes/add_to_favorites_button'&#x000A;  end&#x000A;&#x000A;  return button_partials&#x000A;end</textarea>
     </p>
