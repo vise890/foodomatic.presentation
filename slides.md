@@ -38,6 +38,7 @@ hello.
 - load right partials according to the recipe status
 
 !SLIDE code
+### `RecipeRenderer#button_partials`
 ```ruby
 def button_partials
   button_partials = []
@@ -68,7 +69,10 @@ damn.
 - show/hide buttons depending on the class of the recipe
 - `ajax:success` can just change the class of the recipe
 
-!SLIDE
+!SLIDE code
+
+#### Recipe view
+
 ```htmlembedded
 <div class='recipe favorite'>
   <!-- delicious stuff -->
